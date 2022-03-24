@@ -7,7 +7,7 @@
   },
   "main": "./lib/index.js",
   "scripts": {
-    "copy": "ls node-sass/{bin,lib}/* | grep -v \"/index\\.js$\" | sed 's/node-sass\\///' | xargs -n 1 -I {} cp node-sass/{} {}",
+    "copy": "ls node-sass/bin/* node-sass/lib/* | grep -v \"/index\\.js$\" | sed 's/node-sass\\///' | xargs -n 1 -I {} cp node-sass/{} {}",
     "prepare": "npm run copy",
     "pretest": "bin/node-sass test/fixtures/style.scss -o test/fixtures/actual --output-style compressed",
     "test": "cmp test/fixtures/actual/style.css test/fixtures/style.css"
