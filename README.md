@@ -20,6 +20,8 @@ Note that `sass-embedded` is not fully compatible with `node-sass`, as it is bas
 node-sass styles.scss --output-style compressed
 ```
 
+For a complete set of differnces, refer to the [Dart Sass "Legacy JavaScript API" documentation](https://github.com/sass/dart-sass#legacy-javascript-api).
+
 ## License
 
 Copyright 2022 Andrew Duthie
