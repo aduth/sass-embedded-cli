@@ -1,0 +1,7 @@
+@mixin color() {
+  color: red;
+}
+
+body {
+  @include color;
+}
