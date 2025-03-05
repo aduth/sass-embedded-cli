@@ -1,3 +1,6 @@
+> [!WARNING]  
+> The `sass-embedded` package now includes a CLI wrapper for the Dart Sass executable. As such, this package is deprecated and will not receive updates. You are recommended to use `sass-embedded` instead.
+
 # sass-embedded-cli
 
 Command-line interface for [`sass-embedded`](https://github.com/sass/embedded-host-node) which can be used as a ([mostly](#usage)) drop-in replacement for [`node-sass`](https://github.com/sass/node-sass).
